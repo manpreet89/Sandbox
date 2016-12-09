@@ -9,6 +9,8 @@ while not valid:
  if name != "" and not name.isspace():
     valid = True
 
+
+
 l = len(name)
 for i in range(0,l,2):
     print(name[i])
